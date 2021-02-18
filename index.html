@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Vending machine</title>
+</head>
+<body>
+    <section id="buttons">
+        <button class="coin button is-info is-light is-large">10</button>
+        <button class="coin button is-info is-light is-large">20</button>
+        <button class="coin button is-info is-light is-large">50</button>
+        <button class="coin button is-info is-light is-large">100</button>
+        <button class="coin button is-info is-light is-large">200</button>
+        <button class="coin button is-info is-light is-large">500</button>
+    </section>
+    <div id="screen">
+        <div class="display">
+            <label for="credit" class="label">Credit</label>
+            <div id="credit" class="input"></div>
+        </div>
+        <div class="display">
+            <label for="charge" class="label">Charge</label>
+            <div id="charge" class="input"></div>
+        </div>
+        <div class="display">
+            <label for="change" class="label">Change</label>
+            <div id="change" class="input"></div>
+        </div>
+    </div>
+    <img id="machine" src="./images/vending-machine.png" alt="vending machine">
+    <img id="can" src="./images/can.png" alt="can">
+    <script src="./index.js"></script>
+</body>
+</html>
